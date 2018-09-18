@@ -14,7 +14,12 @@ public class Hand extends Pile{
 
 	private void update() {
 		//update score
+		for (int i = 0; i < cards.size(); i++) {
+		    this.score += (cards.get(i).getValue());
+		}
 		//update state
+		if (this.score > 21) { this.state = "bust"; }
+		else { this.state = "valid"; }
 	}
 	
 	public int add(Card newCard) {
