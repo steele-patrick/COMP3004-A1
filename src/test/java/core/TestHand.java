@@ -1,12 +1,11 @@
 package core;
 
 import junit.framework.TestCase;
-import static org.junit.Assert.*;
 
 public class TestHand extends TestCase{
 
 	//Unit testing of Hand class
-	//Note: Hand is a Pile
+	//note: Hand is a Pile
 	public void testHand_U(){
 		//Create instances for testing
 		Hand hand = new Hand();

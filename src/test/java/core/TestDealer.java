@@ -12,7 +12,7 @@ public class TestDealer extends TestCase{
 		Dealer dealer = new Dealer();
 		
 		//Check properly initiatlized
-		assertEquals("ready", dealer.getState());
+		assertEquals("new", dealer.getState());
 	}
 	
 }
