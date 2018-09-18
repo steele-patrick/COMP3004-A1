@@ -1,9 +1,10 @@
 package core;
 
 public class Player {
-	private int score = 0;
+	private String state = "new";
+	private Hand hand = new Hand();
 	
-	public int getScore() {
-		return this.score;
+	public String getState() {
+		return this.state;
 	}
 }
