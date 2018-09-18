@@ -11,8 +11,7 @@ public class TestPlayer extends TestCase{
 		Player player = new Player();
 		
 		//Check properly initialized
-		assertEquals("ready", player.getState());
-		assertEquals(null, dealer.getHands());
+		assertEquals("new", player.getState());
 	}
 	
 }
