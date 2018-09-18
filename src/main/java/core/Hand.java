@@ -31,7 +31,7 @@ public class Hand extends Pile{
 		cards.add(newCard);
 		
 		// Update fields
-		this.numCards++;
+		this.size++;
 		this.update();
 		
 		return 0;

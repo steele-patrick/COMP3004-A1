@@ -1,9 +1,13 @@
 package core;
 
 public class Card {
-	private String name;	// Name of the card
-	private int value;		// Scoring value of card
-	private boolean faceup = false;	// Is the card faceup? 0=no, 1=yes
+	protected String name;	// Name of the card
+	protected int value;		// Scoring value of card
+	protected boolean faceup = false;	// Is the card faceup? 0=no, 1=yes
+	
+	//Unused
+	public Card() {
+	}
 	
 	public Card(String name, int value) {
 		this.name = name;
