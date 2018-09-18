@@ -1,12 +1,18 @@
 package core;
 
 import junit.framework.TestCase;
+import static org.junit.Assert.*;
 
 public class TestPlayer extends TestCase{
 	
-	public void testPlayer() {
-		Player player1 = new Player();
-		System.out.print(String.valueOf(player1.getScore()));
+	//Unit testing Player class
+	public void testPlayer_U() {
+		//Create instances for testing
+		Player player = new Player();
+		
+		//Check properly initialized
+		assertEquals("ready", player.getState());
+		assertEquals(null, dealer.getHands());
 	}
 	
 }
