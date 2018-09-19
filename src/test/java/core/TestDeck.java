@@ -11,13 +11,15 @@ public class TestDeck extends TestCase{
 		Deck deck = new Deck();
 		
 		//Check properly initialized
-		//assertEquals(52, deck.getSize());
+		assertEquals(13, deck.getSize());
 		
 		//Check top() method
-		deck.top();
+		assertEquals(3, deck.top().getValue());
 		
 		//Check shuffle() method
 		assertEquals(0, deck.shuffle());
+
+		//assertEquals(3, deck.top().getValue());
 		
 	}
 	

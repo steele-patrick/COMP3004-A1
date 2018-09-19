@@ -1,8 +1,8 @@
 package core;
 
 public class Card {
-	protected String name;	// Name of the card
-	protected int value;		// Scoring value of card
+	protected String name;				// Name of the card
+	protected int value;				// Scoring value of card
 	protected boolean faceup = false;	// Is the card faceup? 0=no, 1=yes
 	
 	//Unused
